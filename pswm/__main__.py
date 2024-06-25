@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-
-"""
-@file     pswm
-@date     04/05/2023
-@version  1.5
-@change   1.5: Code linting
-@license  GNU General Public License v2.0
-@url      github.com/Julynx/pswm
-@author   Julio Cabria
-"""
-
-
 from .cli import args
 from .consts import DEFAULT_PASS_LENGTH, HELP_MSG, PASS_VAULT_FILE
 from .vault import (
