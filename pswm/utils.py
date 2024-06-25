@@ -117,9 +117,7 @@ def from_csv(filename, master_password):
         user = words[Field.USER.value]
         passw = words[Field.PASS.value]
 
-        command = (
-            "echo " + master_password + " | pswm " + name + " " + user + " " + passw
-        )
+        command = " ".join(["echo", master_password, "|", "pswm", name, user, passw])
 
         os.system(command)
 
