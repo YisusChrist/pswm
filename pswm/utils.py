@@ -1,6 +1,6 @@
 import os
 
-from colorama import Fore, Style
+from rich import print
 
 from .consts import informational, new_l, old_l, pswm_install
 from .models import Field, Mode
@@ -81,10 +81,7 @@ def check_format(line):
         Boolean: True if the line is correctly formatted, False otherwise.
     """
     if len(line.split(",")) != 4 or line.startswith("name"):
-        print("")
-        print(Fore.RED + "Skipping invalid line:")
-        print(line, end="")
-        print(Style.RESET_ALL)
+        print(f"[red]Skipping invalid line: {line}[/]")
         return False
     return True
 
@@ -126,4 +123,4 @@ def from_csv(filename, master_password):
         restore(pswm_install, old_line=old_l, new_line=new_l)
 
     # Print success message
-    print(Fore.GREEN + "\n- SUCCESS -\n")
+    print("\n[green]- SUCCESS -[/]\n")

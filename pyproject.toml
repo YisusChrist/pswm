@@ -9,9 +9,9 @@ repository = "https://github.com/YisusChrist/pswm"
 
 [tool.poetry.dependencies]
 python = "^3.12,<3.13"
-colorama = "^0.4.6"
 cryptocode = "^0.1"
 prettytable = "^3.10.0"
+rich = "^13.7.1"
 
 [tool.poetry.dev-dependencies]
 
