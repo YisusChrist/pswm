@@ -7,7 +7,7 @@
     <a href="https://github.com/YisusChrist/pswm/forks">
         <img src="https://img.shields.io/github/forks/YisusChrist/pswm?color=171b20&label=Forks%20%20&logo=git&labelColor=f1cf8a&logoColor=ffffff">&nbsp;&nbsp;&nbsp;
     </a>
-    <a href="https://github.com/YisusChrist/pswm/">
+    <a href="https://github.com/YisusChrist/pswm/stargazers">
         <img src="https://img.shields.io/github/stars/YisusChrist/pswm?color=171b20&label=Stargazers&logo=octicon-star&labelColor=70a5eb">&nbsp;&nbsp;&nbsp;
     </a>
     <a href="https://github.com/YisusChrist/pswm/actions">
@@ -24,11 +24,11 @@
 <br>
 
 <p align="center">
-    <a href="https://github.com/YisusChrist/pswm/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/YisusChrist/pswm/issues/new?assignees=YisusChrist&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
     ·
-    <a href="https://github.com/YisusChrist/pswm/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/YisusChrist/pswm/issues/new?assignees=YisusChrist&labels=feature&projects=&template=feature_request.yml">Request Feature</a>
     ·
-    <a href="https://github.com/YisusChrist/pswm/discussions">Ask Question</a>
+    <a href="https://github.com/YisusChrist/pswm/issues/new?assignees=YisusChrist&labels=question&projects=&template=question.yml">Ask Question</a>
     ·
     <a href="https://github.com/YisusChrist/pswm/security/policy#reporting-a-vulnerability">Report security bug</a>
 </p>
@@ -53,19 +53,21 @@ Built to be secure, it encrypts your passwords with a key that only you know. It
 
 </details>
 
-<h4 align="center">It looks better than you might expect for a command-line application thanks to prettytable.</h4>
-<p align="center">  
-  <img width="772" src="https://i.imgur.com/Ie5UCvX.png">
+<h4 align="center">
+  It looks better than you might expect for a command-line application thanks to prettytable.
+</h4>
+<p align="center">
+  <img width="772" src="https://i.imgur.com/Ie5UCvX.png" />
 </p>
 
 # Requirements
 
 Here's a breakdown of the packages needed and their versions:
 
-- [poetry](https://pypi.org/project/poetry) - 1.8.3 (_only for manual installation_)
-- [cryptocode](https://pypi.org/project/cryptocode) - 0.1
-- [prettytable](https://pypi.org/project/prettytable) - 3.10.0
-- [rich](https://pypi.org/project/rich) - 13.7.1
+- [poetry](https://pypi.org/project/poetry) >= 1.8.3 (_only for manual installation_)
+- [cryptocode](https://pypi.org/project/cryptocode) >= 0.1
+- [prettytable](https://pypi.org/project/prettytable) >= 3.10.0
+- [rich](https://pypi.org/project/rich) >= 13.7.1
 
 > [!NOTE]
 > The software has been developed and tested using Python `3.12.1`. The minimum required version to run the software is Python 3.6. Although the software may work with previous versions, it is not guaranteed.
