@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pswm"
 version = "0.1.0"
-description = ""
+description = "A simple command line password manager written in Python."
 license = "GPL-2.0-only"
 authors = ["YisusChrist <agelrenorenardo@gmail.com>"]
 readme = "README.md"
